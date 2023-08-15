@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@asgardeo/auth-spa@latest/dist/asgardeo-spa.production.min.js"></script>
+    <title>App 2: Snake Game</title>
+    <style>
+        #game-board {
+            border: 1px solid black;
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
+
+        .snake {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-color: green;
+        }
+
+        .food {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-color: red;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="C:\Users\minhd\Desktop\Demo buoi 6\project2\Assets\imgs\snakegame.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.js"
+        integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+    <!--Fontawesomes-->
+    <link href="Library/Fontawesomes/Fontawesomes/css/all.css" rel="stylesheet" />
+    <!--Datatables-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+    <!--CSS masterpage-->
+    <link href="CSS/MasterPagestylesheet.css" rel="stylesheet" />
+    <!--Head placeholder-->
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="Assets/imgs/snakegame.png" witdth="30" height="30" />
+                Trò chơi rắn săn mồi
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+    <div>
+        <script>
+            // This client is a class and can be instantiated as follows.
+            var auth = AsgardeoAuth.AsgardeoSPAClient.getInstance();
+
+            // Once instantiated, the  client can be initialized by passing the relevant parameters such as the server origin, redirect URL, client ID, etc.
+            auth.initialize({
+                signInRedirectURL: "http://127.0.0.1:5500/gameApp.html",
+                signOutRedirectURL: "http://127.0.0.1:5500/gameApp.html",
+                clientID: "Kmew6qBd8QfqmsIG4DpCIhYpVH4a",
+                baseUrl: "https://api.asgardeo.io/t/org28f5u",
+                scope: ["openid", "profile"],
+                enableOIDCSessionManagement: true,
+                checkSessionInterval: 100,
+            });
+        </script>
+        <div>
+            <!-- Authenticated View --->
+            <div id="authenticated-view" style="display: none;">
+                <div>
+                    <h1>Snake Game</h1>
+                    <div id="game-board"></div>
+
+                    <script>
+                        // Game configuration
+                        const boardSize = 20;
+                        const squareSize = 20;
+                        const initialSnakeLength = 3;
+                        const moveInterval = 200; // milliseconds
+
+                        // Game variables
+                        let snake = [];
+                        let food = {};
+                        let direction = 'right';
+                        let gameLoop;
+
+                        // Initialize the game
+                        function initGame() {
+                            createBoard();
+                            createSnake();
+                            createFood();
+                            gameLoop = setInterval(moveSnake, moveInterval);
+                            document.addEventListener('keydown', changeDirection);
+                        }
+
+                        // Create the game board
+                        function createBoard() {
+                            const gameBoard = document.getElementById('game-board');
+                            gameBoard.style.width = `${boardSize * squareSize}px`;
+                            gameBoard.style.height = `${boardSize * squareSize}px`;
+                        }
+
+                        // Create the snake
+                        function createSnake() {
+                            for (let i = initialSnakeLength - 1; i >= 0; i--) {
+                                const snakePart = createSnakePart(i, 0);
+                                snake.push(snakePart);
+                            }
+                        }
+
+                        // Create a snake body part
+                        function createSnakePart(x, y) {
+                            const snakePart = document.createElement('div');
+                            snakePart.classList.add('snake');
+                            snakePart.style.left = `${x * squareSize}px`;
+                            snakePart.style.top = `${y * squareSize}px`;
+                            document.getElementById('game-board').appendChild(snakePart);
+                            return snakePart;
+                        }
+
+                        // Create the food
+                        function createFood() {
+                            const x = Math.floor(Math.random() * boardSize);
+                            const y = Math.floor(Math.random() * boardSize);
+                            food = createSnakePart(x, y);
+                            food.classList.add('food');
+                        }
+
+                        // Move the snake
+                        // Move the snake
+                        function moveSnake() {
+                            const head = snake[0];
+                            const tail = snake.pop();
+                            const newHead = getNextSnakePart(head);
+
+                            checkCollision(newHead);
+
+                            snake.unshift(newHead);
+
+                            // Update the position of each snake body part
+                            for (let i = 1; i < snake.length; i++) {
+                                snake[i].style.left = snake[i - 1].style.left;
+                                snake[i].style.top = snake[i - 1].style.top;
+                            }
+
+                            snake.push(tail);
+                        }
+
+
+                        // Get the next snake body part based on the current direction
+                        function getNextSnakePart(currentPart) {
+                            const newPart = currentPart.cloneNode();
+                            const head = snake[0];
+                            let x = parseInt(head.style.left, 10);
+                            let y = parseInt(head.style.top, 10);
+
+                            switch (direction) {
+                                case 'up':
+                                    y -= squareSize;
+                                    break;
+                                case 'down':
+                                    y += squareSize;
+                                    break;
+                                case 'left':
+                                    x -= squareSize;
+                                    break;
+                                case 'right':
+                                    x += squareSize;
+                                    break;
+                            }
+
+                            newPart.style.left = `${x}px`;
+                            newPart.style.top = `${y}px`;
+
+                            return newPart;
+                        }
+
+                        // Check for collision with walls, self, or food
+                        function checkCollision(snakePart) {
+                            <!-- const head = snake[0];
+
+                            // Check collision with walls
+                            if (
+                                parseInt(snakePart.style.left, 10) < 0 ||
+                                parseInt(snakePart.style.left, 10) >= boardSize * squareSize ||
+                                parseInt(snakePart.style.top, 10) < 0 ||
+                                parseInt(snakePart.style.top, 10) >= boardSize * squareSize
+                            ) {
+                                gameOver();
+                            }
+
+                            // Check collision with self
+                            for (let i = 1; i < snake.length; i++) {
+                                if (
+                                    parseInt(snakePart.style.left, 10) ===
+                                    parseInt(snake[i].style.left, 10) &&
+                                    parseInt(snakePart.style.top, 10) ===
+                                    parseInt(snake[i].style.top, 10)
+                                ) {
+                                    gameOver();
+                                }
+                            }
+
+                            // Check collision with food
+                            if (
+                                parseInt(snakePart.style.left, 10) === parseInt(food.style.left, 10) &&
+                                parseInt(snakePart.style.top, 10) === parseInt(food.style.top, 10)
+                            ) {
+                                snake.push(food);
+                                food.classList.remove('food');
+                                createFood();
+                            } -->
+                        }
+
+                        // Handle directional changes based on keyboard input
+                        function changeDirection(event) {
+                            switch (event.keyCode) {
+                                case 37: // Left arrow key
+                                    if (direction !== 'right') {
+                                        direction = 'left';
+                                    }
+                                    break;
+                                case 38: // Up arrow key
+                                    if (direction !== 'down') {
+                                        direction = 'up';
+                                    }
+                                    break;
+                                case 39: // Right arrow key
+                                    if (direction !== 'left') {
+                                        direction = 'right';
+                                    }
+                                    break;
+                                case 40: // Down arrow key
+                                    if (direction !== 'up') {
+                                        direction = 'down';
+                                    }
+                                    break;
+                            }
+                        }
+
+                        // Game over
+                        function gameOver() {
+                            clearInterval(gameLoop);
+                            document.removeEventListener('keydown', changeDirection);
+                            alert('Game Over!');
+                        }
+
+                        // Start the game
+                        initGame();
+                    </script>
+                </div>
+                <ul>
+                    <h1>Xin chào </h1>
+                    <li id="username"></li>
+                </ul>
+                <button onClick="auth.signOut()">Đăng xuất</button>
+            </div>
+            <!-- Un-Authenticated View --->
+            <div id="unauthenticated-view" style="display: none;">
+                <h1>Bạn chưa đăng nhập</h1>
+                <button onClick="auth.signIn()">Đăng nhập</button>
+            </div>
+        </div>
+
+        <script>
+            (async () => {
+                let user = undefined;
+
+                // If there are auth search params i.e code, session_state, automatically trigger login.
+                // Else, try to see if there's a session.
+                if (AsgardeoAuth.SPAUtils.hasAuthSearchParamsInURL()) {
+                    user = await auth.signIn({ callOnlyOnRedirect: true });
+                } else {
+                    user = await auth.trySignInSilently();
+                }
+
+                // Update the UI accordingly.
+                if (user) {
+                    document.getElementById("authenticated-view").style.display = "block";
+                    document.getElementById("unauthenticated-view").style.display = "none";
+                    document.getElementById("username").innerHTML = user.username;
+                } else {
+                    document.getElementById("authenticated-view").style.display = "none";
+                    document.getElementById("unauthenticated-view").style.display = "block";
+                }
+            })();
+        </script>
+    </div>
+    <footer>
+        <div id="footer1" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <p>
+
+                        <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click"
+                            Visible="false"></asp:LinkButton>
+                        &nbsp;
+                        <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server"
+                            OnClick="LinkButton10_Click" Visible="false"></asp:LinkButton>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="footer2" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <p style="color: whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#"
+                            target="_blank">DucDm200158</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

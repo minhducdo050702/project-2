@@ -1,0 +1,64 @@
+﻿/* Custom styling for DataTable */
+#userTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    #userTable th,
+    #userTable td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #userTable th {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
+    }
+
+/* Responsive styling */
+@media (max-width: 767px) {
+    #userTable th,
+    #userTable td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #userTable th {
+        text-align: center;
+    }
+}
+/* Custom styling for DataTable */
+#appTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    #appTable th,
+    #appTable td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #appTable th {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
+    }
+
+/* Responsive styling */
+@media (max-width: 767px) {
+    #appTable th,
+    #appTable td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #appTable th {
+        text-align: center;
+    }
+}

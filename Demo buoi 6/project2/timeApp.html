@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="C:\Users\minhd\Desktop\Demo buoi 6\project2\Assets\imgs\timer.png">
+    <script src="https://unpkg.com/@asgardeo/auth-spa@latest/dist/asgardeo-spa.production.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.js"
+        integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+    <!--Fontawesomes-->
+    <link href="Library/Fontawesomes/Fontawesomes/css/all.css" rel="stylesheet" />
+    <!--Datatables-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+    <!--CSS masterpage-->
+    <link href="CSS/MasterPagestylesheet.css" rel="stylesheet" />
+    <!--Head placeholder-->
+    <title>App1: Display Time as a Clock</title>
+    <style>
+        #clock {
+            font-family: Arial, sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="Assets/imgs/timer.png" witdth="30" height="30" />
+                Ứng dụng hiển thị giờ
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+    <div>
+        <script>
+            // This client is a class and can be instantiated as follows.
+            var auth = AsgardeoAuth.AsgardeoSPAClient.getInstance();
+
+            // Once instantiated, the  client can be initialized by passing the relevant parameters such as the server origin, redirect URL, client ID, etc.
+            auth.initialize({
+                signInRedirectURL: "http://127.0.0.1:5500/Demo%20buoi%206/project2/timeApp.html",
+                signOutRedirectURL: "http://127.0.0.1:5500/Demo%20buoi%206/project2/timeApp.html",
+                clientID: "FI1eaoE43XT_wX18bpW0jNUf6zYa",
+                baseUrl: "https://api.asgardeo.io/t/org28f5u",
+                scope: ["openid", "profile"],
+
+            });
+        </script>
+        <div>
+            <!-- Authenticated View --->
+            <div id="authenticated-view" style="display: none;">
+                <div>
+                    <div id="clock"></div>
+
+                    <script>
+                        function updateClock() {
+                            var now = new Date();
+                            var hours = now.getHours();
+                            var minutes = now.getMinutes();
+                            var seconds = now.getSeconds();
+
+                            hours = padZero(hours);
+                            minutes = padZero(minutes);
+                            seconds = padZero(seconds);
+
+                            var time = hours + ":" + minutes + ":" + seconds;
+                            document.getElementById("clock").textContent = time;
+
+                            setTimeout(updateClock, 1000);
+                        }
+
+                        function padZero(num) {
+                            return (num < 10 ? "0" : "") + num;
+                        }
+
+                        updateClock();
+                    </script>
+                </div>
+                <ul>
+                    <h1> Xin chào</h1>
+                    <li id="username"></li>
+                </ul>
+                <button onClick="auth.signOut()">Đăng xuất</button>
+            </div>
+            <!-- Un-Authenticated View --->
+            <div id="unauthenticated-view" style="display: none;">
+                <h1>Bạn chưa đăng nhập</h1>
+                <button onClick="auth.signIn()">Đăng nhập</button>
+            </div>
+        </div>
+
+        <script>
+            (async () => {
+                let user = undefined;
+
+                // If there are auth search params i.e code, session_state, automatically trigger login.
+                // Else, try to see if there's a session.
+                if (AsgardeoAuth.SPAUtils.hasAuthSearchParamsInURL()) {
+                    user = await auth.signIn({ callOnlyOnRedirect: true });
+                } else {
+                    user = await auth.trySignInSilently();
+                }
+
+                // Update the UI accordingly.
+                if (user) {
+                    document.getElementById("authenticated-view").style.display = "block";
+                    document.getElementById("unauthenticated-view").style.display = "none";
+                    document.getElementById("username").innerHTML = user.username;
+                } else {
+                    document.getElementById("authenticated-view").style.display = "none";
+                    document.getElementById("unauthenticated-view").style.display = "block";
+                }
+            })();
+        </script>
+    </div>
+    <footer>
+        <div id="footer1" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <p>
+
+                        <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click"
+                            Visible="false"></asp:LinkButton>
+                        &nbsp;
+                        <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server"
+                            OnClick="LinkButton10_Click" Visible="false"></asp:LinkButton>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="footer2" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <p style="color: whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#"
+                            target="_blank">DucDm200158</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

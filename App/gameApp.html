@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://unpkg.com/@asgardeo/auth-spa@latest/dist/asgardeo-spa.production.min.js"></script>
+    <title>App 2: Snake Game</title>
+    <style>
+        #game-board {
+            border: 1px solid black;
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
+
+        .snake {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-color: green;
+        }
+
+        .food {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // This client is a class and can be instantiated as follows.
+        var auth = AsgardeoAuth.AsgardeoSPAClient.getInstance();
+
+        // Once instantiated, the  client can be initialized by passing the relevant parameters such as the server origin, redirect URL, client ID, etc.
+        auth.initialize({
+            signInRedirectURL: "http://127.0.0.1:5500/App/gameApp.html",
+            signOutRedirectURL: "http://127.0.0.1:5500/App/gameApp.html",
+            clientID: "90UfxdCtMQ8tb7jewnI8GfH0SIca",
+            baseUrl: "https://api.asgardeo.io/t/org28f5u",
+            scope: ["openid", "profile"]
+        });
+    </script>
+    <div>
+        <!-- Authenticated View --->
+        <div id="authenticated-view" style="display: none;">
+            <div>
+                <h1>Snake Game</h1>
+                <div id="game-board"></div>
+
+                <script>
+                    // Game configuration
+                    const boardSize = 20;
+                    const squareSize = 20;
+                    const initialSnakeLength = 3;
+                    const moveInterval = 200; // milliseconds
+
+                    // Game variables
+                    let snake = [];
+                    let food = {};
+                    let direction = 'right';
+                    let gameLoop;
+
+                    // Initialize the game
+                    function initGame() {
+                        createBoard();
+                        createSnake();
+                        createFood();
+                        gameLoop = setInterval(moveSnake, moveInterval);
+                        document.addEventListener('keydown', changeDirection);
+                    }
+
+                    // Create the game board
+                    function createBoard() {
+                        const gameBoard = document.getElementById('game-board');
+                        gameBoard.style.width = `${boardSize * squareSize}px`;
+                        gameBoard.style.height = `${boardSize * squareSize}px`;
+                    }
+
+                    // Create the snake
+                    function createSnake() {
+                        for (let i = initialSnakeLength - 1; i >= 0; i--) {
+                            const snakePart = createSnakePart(i, 0);
+                            snake.push(snakePart);
+                        }
+                    }
+
+                    // Create a snake body part
+                    function createSnakePart(x, y) {
+                        const snakePart = document.createElement('div');
+                        snakePart.classList.add('snake');
+                        snakePart.style.left = `${x * squareSize}px`;
+                        snakePart.style.top = `${y * squareSize}px`;
+                        document.getElementById('game-board').appendChild(snakePart);
+                        return snakePart;
+                    }
+
+                    // Create the food
+                    function createFood() {
+                        const x = Math.floor(Math.random() * boardSize);
+                        const y = Math.floor(Math.random() * boardSize);
+                        food = createSnakePart(x, y);
+                        food.classList.add('food');
+                    }
+
+                    // Move the snake
+                    // Move the snake
+                    function moveSnake() {
+                        const head = snake[0];
+                        const tail = snake.pop();
+                        const newHead = getNextSnakePart(head);
+
+                        checkCollision(newHead);
+
+                        snake.unshift(newHead);
+
+                        // Update the position of each snake body part
+                        for (let i = 1; i < snake.length; i++) {
+                            snake[i].style.left = snake[i - 1].style.left;
+                            snake[i].style.top = snake[i - 1].style.top;
+                        }
+
+                        snake.push(tail);
+                    }
+
+
+                    // Get the next snake body part based on the current direction
+                    function getNextSnakePart(currentPart) {
+                        const newPart = currentPart.cloneNode();
+                        const head = snake[0];
+                        let x = parseInt(head.style.left, 10);
+                        let y = parseInt(head.style.top, 10);
+
+                        switch (direction) {
+                            case 'up':
+                                y -= squareSize;
+                                break;
+                            case 'down':
+                                y += squareSize;
+                                break;
+                            case 'left':
+                                x -= squareSize;
+                                break;
+                            case 'right':
+                                x += squareSize;
+                                break;
+                        }
+
+                        newPart.style.left = `${x}px`;
+                        newPart.style.top = `${y}px`;
+
+                        return newPart;
+                    }
+
+                    // Check for collision with walls, self, or food
+                    function checkCollision(snakePart) {
+                        const head = snake[0];
+
+                        // Check collision with walls
+                        if (
+                            parseInt(snakePart.style.left, 10) < 0 ||
+                            parseInt(snakePart.style.left, 10) >= boardSize * squareSize ||
+                            parseInt(snakePart.style.top, 10) < 0 ||
+                            parseInt(snakePart.style.top, 10) >= boardSize * squareSize
+                        ) {
+                            gameOver();
+                        }
+
+                        // Check collision with self
+                        for (let i = 1; i < snake.length; i++) {
+                            if (
+                                parseInt(snakePart.style.left, 10) ===
+                                parseInt(snake[i].style.left, 10) &&
+                                parseInt(snakePart.style.top, 10) ===
+                                parseInt(snake[i].style.top, 10)
+                            ) {
+                                gameOver();
+                            }
+                        }
+
+                        // Check collision with food
+                        if (
+                            parseInt(snakePart.style.left, 10) === parseInt(food.style.left, 10) &&
+                            parseInt(snakePart.style.top, 10) === parseInt(food.style.top, 10)
+                        ) {
+                            snake.push(food);
+                            food.classList.remove('food');
+                            createFood();
+                        }
+                    }
+
+                    // Handle directional changes based on keyboard input
+                    function changeDirection(event) {
+                        switch (event.keyCode) {
+                            case 37: // Left arrow key
+                                if (direction !== 'right') {
+                                    direction = 'left';
+                                }
+                                break;
+                            case 38: // Up arrow key
+                                if (direction !== 'down') {
+                                    direction = 'up';
+                                }
+                                break;
+                            case 39: // Right arrow key
+                                if (direction !== 'left') {
+                                    direction = 'right';
+                                }
+                                break;
+                            case 40: // Down arrow key
+                                if (direction !== 'up') {
+                                    direction = 'down';
+                                }
+                                break;
+                        }
+                    }
+
+                    // Game over
+                    function gameOver() {
+                        clearInterval(gameLoop);
+                        document.removeEventListener('keydown', changeDirection);
+                    }
+
+                    // Start the game
+                    initGame();
+                </script>
+            </div>
+            <ul>
+                <li id="username"></li>
+            </ul>
+            <button onClick="auth.signOut()">Đăng xuất</button>
+        </div>
+        <div id="unauthenticated-view" style="display: none;">
+            <h1>Bạn chưa đăng nhập</h1>
+            <button onClick="auth.signIn()">Đăng nhập</button>
+        </div>
+    </div>
+    <script>
+        (async () => {
+            let user = undefined;
+
+            // If there are auth search params i.e code, session_state, automatically trigger login.
+            // Else, try to see if there's a session.
+            if (AsgardeoAuth.SPAUtils.hasAuthSearchParamsInURL()) {
+                user = await auth.signIn({ callOnlyOnRedirect: true });
+            } else {
+                user = await auth.trySignInSilently();
+            }
+
+            // Update the UI accordingly.
+            if (user) {
+                document.getElementById("authenticated-view").style.display = "block";
+                document.getElementById("unauthenticated-view").style.display = "none";
+                document.getElementById("username").innerHTML = user.username;
+                console.log(user);
+            } else {
+                document.getElementById("authenticated-view").style.display = "none";
+                document.getElementById("unauthenticated-view").style.display = "block";
+            }
+        })();
+    </script>
+
+</body>
+
+</html>
