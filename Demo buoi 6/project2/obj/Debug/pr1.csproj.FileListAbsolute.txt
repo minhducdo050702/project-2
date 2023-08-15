@@ -1,0 +1,367 @@
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\pr1.dll.config
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\pr1.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\pr1.pdb
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\obj\Debug\pr1.csproj.AssemblyReference.cache
+C:\Users\minhd\Desktop\Demo buoi 5\project1\obj\Debug\pr1.csproj.CoreCompileInputs.cache
+C:\Users\minhd\Desktop\Demo buoi 5\project1\obj\Debug\pr1.csproj.CopyComplete
+C:\Users\minhd\Desktop\Demo buoi 5\project1\obj\Debug\pr1.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\obj\Debug\pr1.pdb
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\csc.exe
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\csc.exe.config
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\csc.rsp
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\csi.exe
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\csi.exe.config
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\csi.rsp
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.AppContext.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Console.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.IO.Compression.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Net.Http.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.ValueTuple.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\vbc.exe
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\vbc.exe.config
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\vbc.rsp
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\VBCSCompiler.exe
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Asgardeo.OIDC.SDK.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\log4net.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Newtonsoft.Json.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\log4net.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Newtonsoft.Json.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Buffers.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.IO.Pipelines.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Memory.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Numerics.Vectors.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\websocket-sharp.dll
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Buffers.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.IO.Pipelines.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Memory.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Numerics.Vectors.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\minhd\Desktop\Demo buoi 5\project1\bin\websocket-sharp.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\pr1.dll.config
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\pr1.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\pr1.pdb
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\csc.exe
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\csc.exe.config
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\csc.rsp
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\csi.exe
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\csi.exe.config
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\csi.rsp
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.AppContext.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Console.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.IO.Compression.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Net.Http.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.ValueTuple.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\vbc.exe
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\vbc.exe.config
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\vbc.rsp
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\VBCSCompiler.exe
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Asgardeo.OIDC.SDK.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\log4net.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Newtonsoft.Json.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Buffers.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.IO.Pipelines.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Memory.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Numerics.Vectors.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.Helpers.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.Mvc.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.Razor.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.WebPages.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.WebPages.Razor.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\websocket-sharp.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\log4net.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Newtonsoft.Json.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Buffers.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.IO.Pipelines.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Memory.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Numerics.Vectors.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.Helpers.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.Mvc.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.Razor.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.WebPages.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\System.Web.WebPages.Razor.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\websocket-sharp.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project1\obj\Debug\pr1.csproj.AssemblyReference.cache
+C:\Users\minhd\Desktop\Demo buoi 6\project1\obj\Debug\pr1.csproj.CoreCompileInputs.cache
+C:\Users\minhd\Desktop\Demo buoi 6\project1\obj\Debug\pr1.csproj.CopyComplete
+C:\Users\minhd\Desktop\Demo buoi 6\project1\obj\Debug\pr1.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project1\obj\Debug\pr1.pdb
+C:\Users\minhd\Desktop\Demo buoi 6\project2\obj\Debug\pr1.csproj.AssemblyReference.cache
+C:\Users\minhd\Desktop\Demo buoi 6\project2\obj\Debug\pr1.csproj.CoreCompileInputs.cache
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\csc.exe
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\csc.exe.config
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\csc.rsp
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\csi.exe
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\csi.exe.config
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\csi.rsp
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.AppContext.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Console.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.IO.Compression.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Net.Http.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Net.Sockets.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.ValueTuple.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\vbc.exe
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\vbc.exe.config
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\vbc.rsp
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\VBCSCompiler.exe
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Asgardeo.OIDC.SDK.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\log4net.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Newtonsoft.Json.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Buffers.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.IO.Pipelines.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Memory.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Numerics.Vectors.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.Helpers.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.Mvc.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.Razor.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.WebPages.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.WebPages.Razor.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\websocket-sharp.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\log4net.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Newtonsoft.Json.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Buffers.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.IO.Pipelines.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Memory.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Numerics.Vectors.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.Helpers.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.Mvc.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.Razor.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.WebPages.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\System.Web.WebPages.Razor.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\websocket-sharp.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\minhd\Desktop\Demo buoi 6\project2\obj\Debug\pr1.csproj.CopyComplete
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\pr1.dll.config
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\pr1.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\bin\pr1.pdb
+C:\Users\minhd\Desktop\Demo buoi 6\project2\obj\Debug\pr1.dll
+C:\Users\minhd\Desktop\Demo buoi 6\project2\obj\Debug\pr1.pdb
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\pr1.dll.config
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\pr1.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\pr1.pdb
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\csc.exe
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\csc.exe.config
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\csc.rsp
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\csi.exe
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\csi.exe.config
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\csi.rsp
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.AppContext.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Console.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.IO.Compression.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Net.Http.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Net.Sockets.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.ValueTuple.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\vbc.exe
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\vbc.exe.config
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\vbc.rsp
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\VBCSCompiler.exe
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Asgardeo.OIDC.SDK.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\log4net.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Newtonsoft.Json.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Buffers.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.IO.Pipelines.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Memory.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Numerics.Vectors.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.Helpers.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.Mvc.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.Razor.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.WebPages.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.WebPages.Razor.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\websocket-sharp.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\log4net.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Newtonsoft.Json.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Buffers.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.IO.Pipelines.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Memory.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Numerics.Vectors.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.Helpers.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.Mvc.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.Razor.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.WebPages.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\System.Web.WebPages.Razor.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\websocket-sharp.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\obj\Debug\pr1.csproj.AssemblyReference.cache
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\obj\Debug\pr1.csproj.CoreCompileInputs.cache
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\obj\Debug\pr1.csproj.CopyComplete
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\obj\Debug\pr1.dll
+C:\Users\minhd\Desktop\TL\Project 2\Báo cáo các tuần\Demo buoi 6\project2\obj\Debug\pr1.pdb
